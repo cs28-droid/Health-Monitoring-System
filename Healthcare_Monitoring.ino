@@ -11,8 +11,8 @@
 //ThingSpeak Client creation
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 WiFiClient  client;
-unsigned long myChannelNumber = 1408980;
-const char * myWriteAPIKey = "P2JFDLFG0WUPP7T4";
+unsigned long myChannelNumber = ;
+const char * myWriteAPIKey = "";
 
 String myStatus = "";
  
@@ -22,9 +22,9 @@ double temp_amb;
 double temp_obj;
 double calibration = 2.36;
  
-char auth[] = "REUfpr2NhwxmYmPHxtSE554mBQJHhgDo";    // You should get Auth Token in the Blynk App.
-char ssid[] = "hrishi";                       // Your WiFi credentials.
-char pass[] = "xmdh0694";
+char auth[] = "";    // You should get Auth Token in the Blynk App.
+char ssid[] = "";                       // Your WiFi credentials.
+char pass[] = "";
  
 void setup()
 {
