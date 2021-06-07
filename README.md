@@ -11,7 +11,7 @@ To help the post-covid patients, we have combined IoT with healthcare sensors an
 
 #HARDWARE COMPONENTS:
 
-Arduino Mega;
+NodeMCU
 MAX30100 pulse oximeter sensor
 MLX90614 IR temperature sensor
 16x2 LCD display
